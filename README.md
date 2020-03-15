@@ -3,9 +3,9 @@ Sample project for UI automation
 
 In this project, Java, Selenium-WebDriver,POM, Cucumber is used.
 
-Java & Selenium WebDriver has been selected because of better performance.
-Page Object Model has been applied for easy maintenance.
-Cucumber is used for better interaction between technic & non-technic colleagues.
+- Java & Selenium WebDriver has been selected because of better performance.
+- Page Object Model has been applied for easy maintenance.
+- Cucumber is used for better interaction between technic & non-technic colleagues.
 
 
 
