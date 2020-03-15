@@ -6,15 +6,27 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/libs/commons-exec-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/Documents/SeleniumDocs/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/junit-4.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/ngwebdriver-1.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/apiguardian-api-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-core-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-expressions-8.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-gherkin-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-gherkin-vintage-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-java-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-junit-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/cucumber-plugin-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/datatable-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/docstring-5.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/gherkin-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/z003srtv/eclipse-workspace/cafetownsendautomation/jars/tag-expressions-2.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

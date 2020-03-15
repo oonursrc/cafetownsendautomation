@@ -1,3 +1,6 @@
+
+// Page Object for Employees Page
+
 package pageobjects;
 
 import java.util.List;
@@ -46,6 +49,7 @@ public class EmployeesPage {
 	}
 	
 	public void click_create_user_button(){
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		assert button_create_user.isEnabled();
 		button_create_user.click();
 	   }
@@ -79,7 +83,7 @@ public class EmployeesPage {
 		{
 			System.out.println("Full Name In List: " + we.getText());
 			
-			if (we.getText()==fullname)
+			if (we.getText().contains(fullname))
 			{
 				result=true;
 				break;

@@ -1,15 +1,14 @@
+
+// Page Object for Login Page
+
+
 package pageobjects;
 
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import com.paulhammant.ngwebdriver.*;
 
 public class LoginPage {
 	
@@ -62,9 +61,4 @@ public class LoginPage {
 		login_button.click();
 	   }
 	
-	public boolean isPageOpened(){
-
-		return true;
-	       //Assertion can be put here
-	   }
 }

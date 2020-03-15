@@ -1,3 +1,6 @@
+
+// Page Object for Create Employee Page
+
 package pageobjects;
 
 import java.util.concurrent.TimeUnit;
@@ -7,13 +10,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import com.paulhammant.ngwebdriver.*;
+
 
 public class CreateNewEmployeePage {
 	
 	private WebDriver driver;
 	//Page URL
-	private static String PAGE_URL="http://cafetownsend-angular-rails.herokuapp.com/employees/new";
+	//private static String PAGE_URL="http://cafetownsend-angular-rails.herokuapp.com/employees/new";
 	
 	@FindBy(xpath="//*[@ng-model='selectedEmployee.firstName']")
 	private WebElement txt_first_name;
@@ -38,6 +41,7 @@ public class CreateNewEmployeePage {
 	}
 	
 	public void set_first_name(String firstname){
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		assert txt_first_name.isEnabled();
 		txt_first_name.clear();
 		txt_first_name.sendKeys(firstname);
