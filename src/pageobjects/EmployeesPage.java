@@ -49,7 +49,7 @@ public class EmployeesPage {
 	}
 	
 	public void click_create_user_button(){
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		assert button_create_user.isEnabled();
 		button_create_user.click();
 	   }
@@ -66,7 +66,7 @@ public class EmployeesPage {
 		
 	public void isPageOpened(){
 
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Assert.assertEquals("Hello Luke",greetings.getText());
 		
 	   }

@@ -32,7 +32,7 @@ public class tests {
 	 @Before
 	 public void setup() {
 		  driver = new ChromeDriver();
-		  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	       // headless yap
 	      loginpage = new LoginPage(driver);
 	      employeepage = new EmployeesPage(driver);
