@@ -21,4 +21,7 @@ Setup:
  - git clone https://github.com/oonursrc/cafetownsendautomation
 
 Run:
+Right click into cucumber feature file and Run as Cucumber Feature as below screenshot.
 
+
+![cucumber1](https://user-images.githubusercontent.com/1451754/76791163-516ac900-67d1-11ea-8999-1d42f08776b3.jpg)
